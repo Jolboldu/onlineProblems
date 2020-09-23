@@ -1,0 +1,46 @@
+{
+  "name": "online-problems",
+  "jest": {
+    "verbose": true,
+    "testEnvironment": "node"
+  },
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "rollup -c && node ./bin/www",
+    "dev": "rollup -c -w & node ./bin/www",
+    "build": "rollup -c",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.4",
+    "faker": "^4.1.0",
+    "http-errors": "~1.6.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.6.0",
+    "mongoose": "^5.9.6",
+    "morgan": "~1.9.1",
+    "multer": "^1.4.2",
+    "node-telegram-bot-api": "^0.50.0",
+    "nodemailer": "^6.4.10",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0",
+    "pixi.js": "^5.2.1",
+    "pug": "^2.0.4",
+    "sharp": "^0.26.0",
+    "validator": "^13.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^7.1.1",
+    "jest": "^25.1.0",
+    "rollup": "^2.1.0",
+    "rollup-plugin-babel": "^4.4.0"
+  }
+}
