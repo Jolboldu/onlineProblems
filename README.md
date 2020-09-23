@@ -3,7 +3,6 @@
 ## Main backend for this app 
 
 Backend - App for solving algorythmic puzzles (ru).<br>
-https://app.balatech.asia/register
 
 At the moment there are several thousands users and about 24 solved problems for each user
 
