@@ -1,10 +1,11 @@
 # Online Problems app
 
-## Main backend for this app 
-
+## Main backend for the app 
 Backend - App for solving algorythmic puzzles (ru).<br>
 
-At the moment there are several thousands users and about 24 solved problems for each user
+link: http://app.balatech.asia/
+
+At the moment there are 15000+ users and about 24 solved problems for each user
 
 To run this project
 
