@@ -8,8 +8,12 @@ link: http://app.balatech.asia/
 At the moment there are 15000+ users and about 24 solved problems for each user
 
 To run this project
+1) make sure to add .env file with such properties :
+MONGODB_URI, TELEGRAM_BOT_TOKEN, JWT_SECRET_KEY
 
-`npm start`
+2) `npm install`
+
+3) `npm start`
 
 To build from `src` folder to `build` folder:
 
